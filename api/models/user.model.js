@@ -17,7 +17,7 @@ import mongoose from "mongoose";
     },
     avatar:{
         type: String,
-        default: "https://tse3.mm.bing.net/th?id=OIP.WkuGv4-iR5uPKZFcs7UjvAHaHs&pid=Api&P=0&h=180"
+        default: "https://up.yimg.com/ib/th?id=OIP.a9qb_VLfFjvlrDfc-iNLpgHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121"
     },
     },
 {timestamps: true}
