@@ -1,28 +1,28 @@
 import mongoose from "mongoose";
 
- const userSchema = new mongoose.Schema ({
-    username:{
-        type:String,
-        required:true,
-        unique: true,
+const userSchema = new mongoose.Schema(
+  {
+    username: {
+      type: String,
+      required: true,
+      unique: true,
     },
-    email:{
-        type:String,
-        required:true,
-        unique: true,
+    email: {
+      type: String,
+      required: true,
+      unique: true,
     },
-    password:{
-        type:String,
-        required:true,
+    password: {
+      type: String,
+      required: true,
     },
-    avatar:{
-        type: String,
-        default: "https://up.yimg.com/ib/th?id=OIP.a9qb_VLfFjvlrDfc-iNLpgHaHa&pid=Api&rs=1&c=1&qlt=95&w=121&h=121"
+    avatar: {
+      type: String,
+      default: "https://www.pngmart.com/files/23/Profile-PNG-Photo.png",
     },
-    },
-{timestamps: true}
+  },
+  { timestamps: true }
 );
+const User = mongoose.model("User", userSchema);
 
- const User =mongoose.model('User',userSchema);
- export default User;
- 
+export default User;
