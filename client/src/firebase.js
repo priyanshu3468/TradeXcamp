@@ -23,7 +23,7 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDQT2vDDS9T3FW6zet9E3DXPuVIAQexBnE",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "tradexcamp.firebaseapp.com",
   projectId: "tradexcamp",
   storageBucket: "tradexcamp.firebasestorage.app",
