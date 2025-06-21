@@ -108,6 +108,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ## Project Structure
 
 
+<pre>
 .
 ├── api/
 │   ├── controllers/         # Handles API logic
@@ -132,7 +133,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ├── package.json             # Project dependencies and scripts
 ├── package-lock.json
 └── README.md                # This file
-
+</pre>
 
 ## API Endpoints
 
