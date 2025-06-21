@@ -61,29 +61,30 @@ Follow these instructions to get a copy of the project up and running on your lo
 
     bash
     git clone https://github.com/priyanshu3468/TradeXcamp.git
+    
     cd TradeXcamp
     
 
-2.  *Install backend dependencies:*
+3.  *Install backend dependencies:*
 
     bash
     npm install
     
 
-3.  *Install frontend dependencies:*
+4.  *Install frontend dependencies:*
 
     bash
     npm install --prefix client
     
 
-4.  **Create a .env file in the root directory** and add your MongoDB URI and JWT Secret:
+5.  **Create a .env file in the root directory** and add your MongoDB URI and JWT Secret:
 
     
     MONGO_URI="YOUR_MONGODB_CONNECTION_STRING"
     JWT_SECRET="YOUR_SUPER_SECRET_KEY"
     
 
-5.  **Create a .env file in the client/ directory** and add your Firebase configuration:
+6.  **Create a .env file in the client/ directory** and add your Firebase configuration:
 
     
     VITE_FIREBASE_API_KEY="YOUR_FIREBASE_API_KEY"
